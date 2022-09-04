@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+html body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    border: none;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../images/plano-de-fundo.png);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Limelight', cursive;
+    color: #2F3B7A;
+}
+
+input {
+    border: none;
+    width: 40%;
+    height: 35px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 1rem;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    padding-left: 1rem;
+}
+
+button {
+    margin-top: 2rem;
+    background-color: #2F3B7A;
+    color: #F3F0F0;
+    width: 10%;
+    height: 5%;
+    border: 0 none;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: ;
+}
