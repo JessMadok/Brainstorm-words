@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+
+body {
+    background-color: #DCE0FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Limelight', cursive;
+    color: #2F3B7A;
+}
+
+#mynetwork {
+    width: 80vw;
+    height: 80vh;
+    border: none;
+}
+
+button {
+    border-radius: 8px;
+    background-color: #2F3B7A;
+    color: #F3F0F0;
+    border: none;
+    height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 
+
 html body{
     margin: 0;
     padding: 0;
@@ -8,54 +9,44 @@ html body{
     border: none;
 }
 
-
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100vw;
     height: 100vh;
-    background-image: url(../images/plano-de-fundo.png);
-    background-size: cover;
+    background-color: #DCE0FA;
 }
 
-form {
+div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100%;
+}
+
+img {
+    height: 50%;
+    background-color: #DCE0FA;
 }
 
 h1 {
-    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+    color:#2F3B7A;
+}
+
+h2 {
     font-family: 'Limelight', cursive;
     color: #2F3B7A;
 }
 
-.submit__form {
-    border: none;
-    width: 200%;
-    height: 35px;
+button {
     border-radius: 8px;
-    font-family: 'Montserrat', sans-serif;
-    padding-left: 1rem;
-}
-
-input:focus {
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-    padding-left: 1rem;
-}
-
-.submit__button {
-    margin-top: 2rem;
     background-color: #2F3B7A;
     color: #F3F0F0;
-    width: 10%;
-    height: 5%;
-    border: 0 none;
-    border-radius: 8px;
+    border: none;
+    height: 2rem;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
 }
